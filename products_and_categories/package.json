@@ -1,0 +1,26 @@
+{
+  "name": "products_and_categories",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "integration" : ""
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "protractor": "^3.3.0",
+    "supertest": "^1.2.0"
+  }
+}
